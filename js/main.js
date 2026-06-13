@@ -161,10 +161,12 @@ function initLanguageToggle() {
       'about.title': 'Su Socio Logístico Global con Base en Shenzhen',
       'about.p1': '<strong>Shenzhen Fulaiying International Logistics Co., Ltd.</strong> (深圳市福涞迎国际货运代理有限公司) es una empresa líder en transporte de carga y logística con sede en Shenzhen. Con más de una década de experiencia, ofrecemos soluciones integrales de cadena de suministro que conectan empresas en toda China con mercados globales.',
       'about.p2': 'Nuestra ubicación estratégica en Shenzhen — uno de los puertos más activos del mundo y centro mundial de fabricación — nos brinda ventajas únicas en velocidad, costo y conectividad. Desde consolidación marítima hasta carga aérea, nuestro equipo garantiza que su carga se mueva de manera eficiente, segura y puntual.',
-      'about.feature1': '多年行业经验',
+      'about.feature1': 'Años de Experiencia',
       'about.feature2': 'Red Global, 50+ Países',
       'about.feature3': 'Sede en Shenzhen',
       'stats.shipments': 'Envíos Realizados',
+      'card.hkchina': 'Servicio HK-China',
+      'card.taxrefund': 'Reembolso de Impuestos',
       'stats.countries': 'Países Atendidos',
       'stats.partners': 'Socios de Confianza',
       'stats.ontime': 'Entrega a Tiempo',
@@ -259,10 +261,12 @@ function initLanguageToggle() {
       'about.title': 'Your Global Logistics Partner Based in Shenzhen',
       'about.p1': '<strong>Shenzhen Fulaiying International Logistics Co., Ltd.</strong> (深圳市福涞迎国际货运代理有限公司) is a premier freight forwarding and logistics company headquartered in the heart of Shenzhen\'s international trade district. With over a decade of industry experience, we provide end-to-end supply chain solutions that connect businesses across China to markets worldwide.',
       'about.p2': 'Our strategic location in Shenzhen — one of the world\'s busiest port cities and a global manufacturing hub — gives us unique advantages in speed, cost, and network connectivity. From ocean freight consolidation to air cargo, our team ensures your cargo moves efficiently, safely, and on schedule.',
-      'about.feature1': '多年行业经验',
+      'about.feature1': 'Years of Experience',
       'about.feature2': 'Global Network, 50+ Countries',
       'about.feature3': 'Shenzhen Headquarters',
       'stats.shipments': 'Shipments Delivered',
+      'card.hkchina': 'HK-China Service',
+      'card.taxrefund': 'Customs Tax Refund',
       'stats.countries': 'Countries Served',
       'stats.partners': 'Trusted Partners',
       'stats.ontime': 'On-Time Delivery',
@@ -356,10 +360,12 @@ function initLanguageToggle() {
       'about.title': 'Seu Parceiro Logístico Global com Sede em Shenzhen',
       'about.p1': '<strong>Shenzhen Fulaiying International Logistics Co., Ltd.</strong> (深圳市福涞迎国际货运代理有限公司) é uma empresa líder em transporte de carga e logística com sede em Shenzhen. Com mais de uma década de experiência, oferecemos soluções completas de cadeia de suprimentos conectando empresas em toda a China a mercados globais.',
       'about.p2': 'Nossa localização estratégica em Shenzhen — um dos portos mais movimentados do mundo e um centro global de manufatura — nos confere vantagens únicas em velocidade, custo e conectividade. De consolidação marítima a carga aérea, nossa equipe garante que sua carga se mova com eficiência, segurança e pontualidade.',
-      'about.feature1': '多年行业经验',
+      'about.feature1': 'Anos de Experiência',
       'about.feature2': 'Rede Global, 50+ Países',
       'about.feature3': 'Sede em Shenzhen',
       'stats.shipments': 'Envios Realizados',
+      'card.hkchina': 'Serviço HK-China',
+      'card.taxrefund': 'Reembolso Fiscal',
       'stats.countries': 'Países Atendidos',
       'stats.partners': 'Parceiros de Confiança',
       'stats.ontime': 'Entrega no Prazo',
@@ -455,10 +461,12 @@ function initLanguageToggle() {
       'about.title': 'Your Global Logistics Partner Based in Shenzhen',
       'about.p1': '<strong>Shenzhen Fulaiying International Logistics Co., Ltd.</strong> (深圳市福涞迎国际货运代理有限公司) is a premier freight forwarding and logistics company headquartered in the heart of Shenzhen\'s international trade district. With over a decade of industry experience, we provide end-to-end supply chain solutions that connect businesses across China to markets worldwide.',
       'about.p2': 'Our strategic location in Shenzhen — one of the world\'s busiest port cities and a global manufacturing hub — gives us unique advantages in speed, cost, and network connectivity. From ocean freight consolidation to air cargo, our team ensures your cargo moves efficiently, safely, and on schedule.',
-      'about.feature1': '多年行业经验',
+      'about.feature1': 'Years of Experience',
       'about.feature2': 'Global Network, 50+ Countries',
       'about.feature3': 'Shenzhen Headquarters',
 
+      'card.hkchina': 'HK-China Service',
+      'card.taxrefund': 'Customs Tax Refund',
       'stats.shipments': 'Shipments Delivered',
       'stats.countries': 'Countries Served',
       'stats.partners': 'Trusted Partners',
@@ -563,6 +571,8 @@ function initLanguageToggle() {
       'about.feature2': '南美洲专业行业经验',
       'about.feature3': '深圳国际货代公司',
 
+      'card.hkchina': '中港服务',
+      'card.taxrefund': '报关退税',
       'stats.shipments': '已完成货运',
       'stats.countries': '服务国家',
       'stats.partners': '合作伙伴',
@@ -678,8 +688,8 @@ function initLanguageToggle() {
     });
   });
 
-  // Default: Chinese
-  switchLang('zh');
+  // Default: Spanish
+  switchLang('es');
 }
 
 // ---- Contact Form ----

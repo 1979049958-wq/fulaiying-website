@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" data-lang="zh">
+<html lang="es" data-lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,10 +82,10 @@
         <li role="none"><a href="#contact" class="nav-link" role="menuitem" data-i18n="nav.contact">Contact</a></li>
         <li role="none">
           <div class="lang-buttons" id="langSelect">
-            <button class="lang-btn" data-lang="es">ES</button>
+            <button class="lang-btn active" data-lang="es">ES</button>
             <button class="lang-btn" data-lang="en">EN</button>
             <button class="lang-btn" data-lang="pt">PT</button>
-            <button class="lang-btn active" data-lang="zh">中文</button>
+            <button class="lang-btn" data-lang="zh">中文</button>
           </div>
         </li>
       </ul>
@@ -95,7 +95,10 @@
   <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
     <div class="hero-bg-image" aria-hidden="true">
-      <img src="img/hero-port-v2.jpg" alt="" loading="eager" decoding="async">
+      <picture>
+        <source media="(max-width: 768px)" srcset="img/hero-mobile-custom.jpg">
+        <img src="img/hero-port-v2.jpg" alt="" loading="eager" decoding="async">
+      </picture>
     </div>
     <div class="hero-overlay"></div>
     <div class="container hero-content">
